@@ -1,0 +1,24 @@
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+}
+
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .footer {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,50 @@
+.about-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Equal to the width to make it a circle */
+    border: none;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire circle */
+
+}
+
+.owner-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.owner-info p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+}
